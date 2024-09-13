@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation</title>
+  </head>
+  <body>
+    <a href="index.html" target="_self" style="text-decoration: none">
+      ↺ Go back
+    </a>
+    <h1 style="text-align: center"><u>Contact Us/Make a Reservation</u></h1>
+    <form action="submit.php" method="POST" style="text-align: center;">
+  
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        <br>
+        <label for="phone">Phone:</label>
+        <input type="phone" id="phone" name="phone" required><br>
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <br>
+        <br>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+        <br>
+        <br>
+        <label for="people">Number of people:</label>
+<input type="number" id="people" name="people" min="1" max="10">
+<br> <br>
+<label>Seating preference:</label>
+<input type="radio" id="indoor" name="seating" value="indoor">
+<label for="indoor">Indoor</label>
+
+<input type="radio" id="outdoor" name="seating" value="outdoor">
+<label for="outdoor">Outdoor</label>
+<br> <br>
+<label>Special requests:</label>
+<br> <br>
+<span>
+  <input type="checkbox" id="vegan" name="vegan" value="vegan">
+  <label for="vegan">Vegan options</label>
+</span>
+
+<span>
+  <input type="checkbox" id="allergy" name="allergy" value="allergy">
+  <label for="allergy">Allergy-friendly</label>
+</span>
+
+<span>
+  <input type="checkbox" id="window" name="window" value="window">
+  <label for="window">Window seat</label>
+</span>
+
+<span>
+  <input type="checkbox" id="high-chair" name="high-chair" value="high-chair">
+  <label for="high-chair">Need a high chair</label>
+</span>
+
+<span>
+  <input type="checkbox" id="special-occasion" name="special-occasion" value="special-occasion">
+  <label for="special-occasion">Celebrating a special occasion</label>
+</span>
+<br>
+<br>
+<label for="comment">Additional Notes:</label>
+<br><br>
+<textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+<br><br>
+<input type="submit" value="Submit Reservation">
+<footer style="text-align: center">
+    <p>
+      Follow us on<a href="https://www.instagram.com" target="_blank">
+        Instagram!</a
+      >
+    </p>
+
+    <p>&copy; 2024 The Urban Garden. All rights reserved.</p>
+  </footer>
+</p>
+  </body>
+</html>
+
+
+<!-- time of completion 2:20 am 3/11/2024 -->
